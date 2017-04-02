@@ -1,0 +1,298 @@
+/* CSS para los documentos .html Covadonga y lagosCovadonga
+ * realizado por Eduardo Miguel Rojo Burgos
+ * para el módulo Lenguajes de marcas y sistemas de gestión de información
+ * del CGFS Desarrollo de Aplicaciones Web.
+ */
+
+
+/*---------CUERPO----------*/
+
+body {
+  width: 100%;
+  background-color: #F9F8B8;
+  /*#e3f1ff;*/
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  text-align: justify;
+}
+
+#lagos {
+  /*Propiedades específicas para el cuerpo del html lagosCovadonga*/
+  background-image: url("im%C3%A1genes/agua.jpg");
+  background-repeat: repeat;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #BBDAA0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.90em;
+  font-style: italic;
+}
+
+
+/*-------NAVEGACIÓN--------*/
+
+nav {
+  padding: 5px;
+  border-bottom: thin dashed;
+}
+
+nav li {
+  padding-right: 20px;
+  display: inline-block;
+  list-style: none;
+  font: bold 14px verdana, sans-serif;
+}
+
+
+/*-------DISEÑO A DOS COLUMNAS-------*/
+
+aside {
+  width: 30%;
+  float: left;
+  /* separamos un poco el texto de los bordes */
+  padding: 20px;
+  /* hacemos el texto más legible con el espaciado */
+  line-height: 50px;
+  border-right: thin dashed;
+  text-indent: 0px;
+}
+
+section {
+  width: 65%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#indice {
+  background-color: #ffffdf;
+  height: 3000px;
+}
+
+#formulario {
+  height: 800px;
+}
+
+#seccionPrincipal {
+  height: 3000px;
+}
+
+#seccionLagos {
+  height: 800px;
+}
+
+
+/*-------PIE DE PÁGINA-------*/
+
+footer {
+  clear: both;
+  border-top: thin dashed;
+  font-size: 0.80em;
+  text-align: center;
+  border-style: double;
+  background-color: #BBDAF9;
+  /*background-color: #8c91fc;*/
+}
+
+p.w3c {
+  display: inline-block;
+}
+
+p.pie {
+  font-size: 0.80em;
+  text-align: center;
+  border-style: double;
+  background-color: #ffffdf;
+}
+
+
+/*---------ENCABEZADOS----------*/
+
+h1 {
+  /*Encabezado aplicable a los documentos html Covadonga y lagosCovadonga*/
+  font-variant: small-caps;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 10px;
+  text-decoration: underline;
+}
+
+#inicio {
+  /*Propiedades específicas para el encabezado del html Covadonga*/
+  background-color: #BBDAF9;
+}
+
+#encabezadoSeccionPrincipal {
+  background-color: #BBDAF9;
+  text-transform: uppercase;
+}
+
+#encabezadoSeccionLagos {
+  background-color: #fff253;
+  text-transform: uppercase;
+}
+
+#inicioLagos {
+  /*Propiedades específicas para el encabezado del html lagosCovadonga*/
+  background-color: #fff253;
+  text-transform: uppercase;
+}
+
+h2 {
+  background-color: #BBDAA0;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-size: 0.9em;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-style: italic;
+}
+
+
+/*---------PÁRRAFOS----------*/
+
+article {
+  padding: 20px;
+}
+
+p {
+  text-indent: 50px;
+  /*font-style: italic;*/
+  font-weight: normal;
+  font-size: 1em;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+p.volver {
+  text-indent: 0px;
+  border-width: thin;
+  border-style: dashed;
+  background-color: #ffffdf;
+}
+
+
+/*---------ENLACES----------*/
+
+a {
+  color: #B63EEB;
+}
+
+a:visited {
+  color: #451c57;
+}
+
+a:hover {
+  background-color: #8240aa;
+  color: #F9F8B8;
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+
+/*---------CURSIVA Y NEGRITA----------*/
+
+em {
+  font-size: 1.1em;
+  color: #657258;
+}
+
+body.lagos em {
+  font-size: 1.1em;
+  color: cornsilk;
+}
+
+strong {
+  font-size: 1.2em;
+  font-family: arial, sans-serif;
+}
+
+body.lagos strong {
+  color: whitesmoke;
+}
+
+
+/*-------------LISTAS-----------------*/
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ol.subnivel {
+  font-style: italic;
+  list-style-type: lower-roman;
+  font-size: 0.9em;
+}
+
+ul li {
+  list-style-image: url("im%C3%A1genes/Asturias.png");
+}
+
+
+/*------------TABLAS----------------*/
+
+table,
+td {
+  border: 2px solid #BBDAA0;
+}
+
+table {
+  width: 100%;
+  background-color: #ffffdf;
+  border-collapse: collapse;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9em;
+  padding: 4px 7px 2px 7px;
+}
+
+td strong {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+table p {
+  text-align: justify;
+  text-indent: 0px;
+}
+
+table ul {
+  text-align: justify;
+}
+
+
+/*---------FORMULARIO----------*/
+
+input {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #fff253;
+  background-color: #BBDAF9;
+}
+
+input[type="submit"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #BBDAF9;
+  background-color: #fff253;
+}
+
+
+/*---------------------------*/
