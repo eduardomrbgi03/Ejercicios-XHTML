@@ -1,3 +1,0 @@
-La página web está alojada en gitHub Pages en la siguiente dirección:
-
-https://eduardomrbgi03.github.io/Ejercicios-XHTML/PrimerTrimestre/Covadonga/Covadonga.html
